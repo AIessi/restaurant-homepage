@@ -9,14 +9,22 @@ header {
     justify-content: center;
 }
 
-.button-container {
+nav {
     display: flex;
     justify-content: center;
-    margin-top: -50px;
+    margin-top: -150px;
     gap: 10px;
 }
 
 .button-nav {
     text-decoration: none;
     cursor: pointer;
+    border: none;
+    background: none;
+    font-size: 40px;
+}
+
+.button-nav:hover {
+    color: orange;
+    transition: 0.3s;
 }
